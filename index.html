@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="m!n·i·mum /ˈminəməm/ noun the least or smallest amount or quantity of files possible, attainable, or required for a fully functional web proxy.">
     <title>m!nimum</title>
-    <script src="/scram/scramjet.all.js" defer></script>
+    <script src="scram/scramjet.all.js" defer></script>
     <script type="module">
         import * as BareMux from "https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux/dist/index.mjs";
         window.BareMux = BareMux;
@@ -1463,9 +1463,9 @@
             sharedScramjet = new ScramjetController({
                 prefix: basePath + "scramjet/",
                 files: {
-                    wasm: "/scram/scramjet.wasm.wasm",
-                    all: "/scram/scramjet.all.js",
-                    sync: "/scram/scramjet.sync.js"
+                    wasm: "scram/scramjet.wasm.wasm",
+                    all: "scram/scramjet.all.js",
+                    sync: "scram/scramjet.sync.js"
                 }
             });
             
